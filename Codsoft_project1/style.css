@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body {
+    background-color: #f0f0f0;
+}
+
+.header {
+    display: grid;
+    margin-bottom: 100px;
+    justify-items: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.header h1 {
+    font-size: 4.5em;
+    color: #cf4040;
+    text-shadow: 2px 2px #2e2e2e;
+    font-family: 'Arial', sans-serif;
+}
+
+.cal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+.calculator {
+    border: 10px solid #000000;
+    border-radius: 9px;
+    overflow: hidden;
+    background-color: #a7a4a4;
+    box-shadow: 0 0 10px rgba(51, 51, 51, 0.1);
+}
+
+
+.display {
+    background-color: #78ecf5;
+    color: #000000;
+    text-align: right;
+    padding: 20px;
+    font-size: 2em;
+    border-bottom: 8px solid #000000;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.button {
+    padding: 20px;
+    font-size: 1.5em;
+    border: 1px solid #ffffff;
+    background-color: #a7a7a7;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #ffffff;
+}
